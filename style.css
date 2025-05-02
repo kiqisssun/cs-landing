@@ -1,0 +1,83 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('assets/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 30px 20px 10px;
+}
+
+.logo-banner {
+  max-width: 100%;
+  height: auto;
+  max-height: 180px;
+}
+
+h1 {
+  margin: 10px 0 5px;
+  font-size: 32px;
+  color: #ff3c00;
+}
+
+.bonus-note {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.cta {
+  margin: 10px 0 30px;
+}
+
+.cta a {
+  background: #ff3c00;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(255, 60, 0, 0.4);
+}
+
+.cta a:hover {
+  background: #e13800;
+}
+
+.case-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.case {
+  background: rgba(28, 28, 31, 0.9);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(255, 60, 0, 0.3);
+  transition: transform 0.3s ease;
+  width: 220px;
+  cursor: pointer;
+}
+
+.case:hover {
+  transform: scale(1.05);
+}
+
+.case img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.case-title {
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
